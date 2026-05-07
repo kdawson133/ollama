@@ -1,8 +1,8 @@
 # Models
 
 | Model | Footprint | Base | Context |            
-
-Axel    7.5 GB      llama3.s:3b     32768
+| ----- | --------- | ---- | ------- |
+| Axel | 7.5 GB | llama3.s:3b | 32768 |
 
 Beau    14 GB       mistral-nemo    32768
 
