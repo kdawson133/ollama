@@ -1,6 +1,6 @@
 # Models
 
-Model   Footprint   Base            Context            
+| Model | Footprint | Base | Context |            
 
 Axel    7.5 GB      llama3.s:3b     32768
 
