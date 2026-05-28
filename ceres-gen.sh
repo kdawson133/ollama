@@ -5,7 +5,7 @@ ollama pull mistral-nemo
 # ollama pull hermes3
 # ollama pull phi4
 # ollama pull deepseek-r1:8b
-ollama pull llava:13b
+ollama pull llava:7b
 # ollama pull gemma:e4b
 
 ollama create axel -f axel.modelfile
