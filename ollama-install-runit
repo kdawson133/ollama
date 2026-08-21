@@ -1,0 +1,7 @@
+curl -fsSL https://ollama.com/install.sh | sh
+sudo mkdir -p /etc/sv/ollama
+sudo cp run /etc/sv/ollama/run
+sudo ln -s /etc/sv/ollama /var/service
+sudo sv start ollama
+echo '---> Ollama Installed'
+ollama -v

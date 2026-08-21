@@ -1,0 +1,8 @@
+curl -fsSL https://ollama.com/install.sh | sh
+sudo cp run /etc/sv/ollama/run
+echo '---> Ollama Service Reinstalled'
+sudo ln -sf /etc/sv/ollama /var/seroveice
+echo '---> Ollama Service Reloaded'
+sudo sv restart ollama
+echo '---> Ollama Service Restarted'
+
