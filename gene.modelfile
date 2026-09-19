@@ -1,4 +1,4 @@
-FROM llava:7b 
+FROM llava:13b 
 
 # set the temperature to 1 [higher is more creative, lower is more coherent]
 PARAMETER temperature 0.3
