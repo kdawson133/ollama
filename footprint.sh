@@ -15,6 +15,7 @@ ollama run gene why is the sky blue
 ollama ps >> mem.txt
 ollama run hank why is the sky blue
 ollama ps >> mem.txt
-
+ollama run igor why is the sky blue
+ollama ps >> mem.txt
 cat mem.txt
 
