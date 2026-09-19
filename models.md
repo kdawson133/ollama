@@ -10,4 +10,6 @@
 | Fred | 12 GB | deepseek-r1:8b | 49512 |
 | Gene | 11 GB | llava:13b | 49512 |
 | hank | 11 GB | gemma4:e4b | 49512 |
+| igor |       | Qwen3.8-27B-GSQ-RCO-GGUF:IQ3_S | 256000 |
+
 
