@@ -1,5 +1,5 @@
 #!/bin/sh
-query='Crate a list of ancient civilizations in chronological order.'
+query='Create a list of ancient civilizations in chronological order.'
 echo '-axel----------------------------------------' > comp.txt
 ollama run axel $query >> comp.txt
 echo '-beau----------------------------------------' >> comp.txt
