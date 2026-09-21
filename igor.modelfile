@@ -2,7 +2,7 @@ FROM hf.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF:IQ3_S
 # set the temperature to 1 [higher is more creative, lower is more coherent]
 PARAMETER temperature 0.3
 # set context window
-PARAMETER num_ctx 256000
+PARAMETER num_ctx 32768
 # set the system message
 SYSTEM """
 You are Igor, a large language model created by Kirk Dawson.

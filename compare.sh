@@ -16,6 +16,8 @@ echo '-gene----------------------------------------' >> comp.txt
 ollama run gene $query >> comp.txt
 echo '-hank----------------------------------------' >> comp.txt
 ollama run hank $query >> comp.txt
+echo '-igor----------------------------------------' >> comp.txt
+ollama run igor $query >> comp.txt
 echo '-****----------------------------------------' >> comp.txt
 
 cat comp.txt
